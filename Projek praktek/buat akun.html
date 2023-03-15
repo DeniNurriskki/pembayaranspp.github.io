@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buat Akun</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <div class="container float-end   ">
+    <form action="contact.php" method="POST">
+      <br>
+      <br>
+      <fieldset>
+      <legend>Registrasi</legend>
+      <p>
+          <label>Nama:</label>
+          <input type="text" name="nama" placeholder="Nama Lengkap" />
+      </p>
+      <p>
+          <label>No Telepon:</label>
+          <input type="text" name="username" placeholder="Username" />
+      </p>
+      <p>
+          <label>Email:</label>
+          <input type="email" name="email" placeholder="E-mail" />
+      </p>
+      <p>
+          <label>Password:</label>
+          <input type="password" name="password" placeholder="Password" />
+      </p>
+      <p>
+          <label>Jenis kelamin:</label>
+          <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+          <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+      </p>
+      <p>
+        <label>Nama Jurusan:</label>
+        <select name="agama">
+            <option value="RPl">RPL A</option>
+            <option value="RPl">RPL B</option>
+            <option value="TSM">TSM A</option>
+            <option value="RPl">TSM B</option>
+            <option value="TKR">TKR A</option>
+            <option value="RPl">TKR B</option>
+            <option value="ELIND">ELIND</option>
+            <option value="MEKA">MEKA A</option>
+            <option value="RPl">MEKA B</option>
+        </select>
+    </p>
+    <p>
+      <label>Kelas:</label>
+      <select name="">
+          <option value="RPl">X</option>
+          <option value="TSM">XI</option>
+          <option value="TKR">XII</option>
+        
+      </select>
+      <p>
+          <label>Agama:</label>
+          <select name="agama">
+              <option value="islam">Islam</option>
+              <option value="kristen">Kristen</option>
+              <option value="hindu">Hindu</option>
+              <option value="budha">Budha</option>
+          </select>
+      </p>
+      
+      <div>
+        <a href="halaman utama.html" class="btn btn-primary" type="button">Sumbit</a>
+        </div>
+      </fieldset>
+  </form>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
